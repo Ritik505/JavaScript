@@ -1,0 +1,7 @@
+let arr = prompt("Enter a price of items separated by spaces: ");
+let items = arr.split(" ").map(Number);
+for(let i =0;i<items.length;i++){
+    let offer = items[i]/10;
+    items[i] -= offer;
+}
+console.log(items);
