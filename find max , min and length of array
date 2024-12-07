@@ -1,0 +1,10 @@
+let input = prompt("Enter a list of numbers separated by commas:");
+let arr = JSON.parse(`[${input}]`);
+
+const max = arr.reduce((prev, curr) => (prev > curr ? prev : curr));
+console.log("Maximum is:", max);
+
+const min = arr.reduce((prev, curr) => (prev < curr ? prev : curr));
+console.log("Minimum is:", min);
+
+console.log("Length of array:", arr.length);
