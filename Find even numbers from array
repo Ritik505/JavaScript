@@ -1,0 +1,8 @@
+let array=[3,54,4,12,8,76,55,21];
+let evenNumbers=[];
+for(let i=0;i<=array.length;i++){
+    if(array[i]%i==0){
+        evenNumbers.push(array[i]);
+    }
+}
+console.log("Even Numbers from array=",evenNumbers);
