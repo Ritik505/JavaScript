@@ -1,0 +1,14 @@
+let number = Math.sqrt(25);
+console.log(number);
+
+let currentDate = new Date();
+console.log(currentDate);
+
+let string = "hello world"
+console.log(string.toUpperCase());
+
+let Array = ["Mango","Banana","Apple"];
+console.log(Array.length);
+
+let person = {Name:"Ritik",age:"19"};
+console.log(person.Name);
